@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body{
+    background-color: white;
+    font-family: Arial;
+}
+.container{
+    max-width: 1000px;
+    background-color: #999;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.div-clear{
+     clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+}
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+}
+.edu-temp-left{
+    float: left;
+    width: 45%;
+}
+.edu-temp-mid{
+    float: right;
+    width: 30%;
+}
+.edu-temp-right{
+    float: right;
+    width: 25%;
+}
+.header-contact2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+.header-contact2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.edu-tempp-left{
+    float: left;
+    width: 45%;
+}
+.edu-tempp-right{
+    float: right;
+    width: 45%;
+}
+.bottom-container{
+    background-color:#999;
+    text-align: center;
+    padding: 10px;
+    float: center;
+}
+.bottom-container a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: black;
+    margin-top: 20px;
+}
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
